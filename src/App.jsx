@@ -245,10 +245,12 @@ function LayoutFlow() {
     fitView
     >
     <Panel position="top-left">
-      <button onClick={ubaes}>UBAES</button>
-      <button onClick={siniganggang}>SINIGANGGANG</button>
-      <button onClick={pakwans}>PAKWANS</button>
-      <button onClick={basabuddies}>BASA BUDDIES</button>
+      <div className='buttons'>
+        <button onClick={ubaes}>UBAES</button>
+        <button onClick={siniganggang}>SINIGANGGANG</button>
+        <button onClick={pakwans}>PAKWANS</button>
+        <button onClick={basabuddies}>BASA BUDDIES</button>
+      </div>
     </Panel>
 
     <Panel position='top-center'>
