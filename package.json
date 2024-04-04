@@ -2,7 +2,7 @@
   "name": "kkaatree",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DanielPasion.github.io/CPPBarkadaPairingTree",
+  "homepage": "https://DanielPasion.github.io/CPPBarkadaAllFams",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
