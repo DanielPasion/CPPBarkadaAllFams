@@ -73,7 +73,7 @@ function LayoutFlow() {
   const [initialEdgesBasaBuddies, setInitialEdgesBasaBuddies] = useState([]);
   const [allDataLoaded, setAllDataLoaded] = useState(false);
 
-  const host = "https://cppbarkadapairingtree.onrender.com/"
+  const host = "https://cppbarkadapairingtree.onrender.com"
   useEffect(() => {
     async function fetchData() {
       const family = await axios.get(host + "/ubaes");
