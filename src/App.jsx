@@ -19,7 +19,7 @@ const elk = new ELK();
 const elkOptions = {
   'elk.algorithm': 'layered',
   'elk.layered.spacing.nodeNodeBetweenLayers': '100',
-  'elk.spacing.nodeNode': '80',
+  'elk.spacing.nodeNode': '80'
   };
 
 //Used to edit the way the tree is diplayed
@@ -257,10 +257,13 @@ function LayoutFlow() {
       <h1>{fam}</h1>
     </Panel>
     <Panel position="top-right">
-      <img src={logo} />
+      <a href="http://cppbarkada.org/" target="_blank">
+        <img src={logo} />
+      </a>
     </Panel>
     <Panel position="bottom-right">
-      <div id="bug">See a bug? Contact dnpaxion@gmail.com or .theDaniel on discord to report it.</div>
+      <div>Please note that it can sometimes take up to <b>30 seconds </b> for the data to load so please be patient 😊</div>
+      <div id="bug">See a bug? Contact dnpaxion@gmail.com or .thedaniel on discord to report it.</div>
     </Panel>
     </ReactFlow>
   );
